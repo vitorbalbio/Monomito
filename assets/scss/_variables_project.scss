@@ -1,0 +1,53 @@
+/*http://localhost:1313/
+
+Add styles or override variables from the theme here.
+
+*/
+$primary: #2b2825 !default;
+$secondary: #c0ae8e!default;
+$success: #ffc037 !default;
+$info: #B0A695 !default;
+$warning: #ed6a5a !default;
+$danger: #ed6a5a !default;
+$light: #d3f3ee !default; // TODO: consider using BS value
+$dark: #B0A695 !default;  // TODO: consider using BS value
+
+.td-home{
+    background-color: $primary;
+    }
+
+.td-back{
+  background-color: $primary;
+  width: 100%;
+  height:50%;
+}
+
+.text-home-header {
+    color: #ffffff !important; // Cor personalizada para textos secundários
+    font-weight: bold !important;
+    font-family:Georgia, serif;
+    font-size: calc(min(4vw, 120px)) !important;
+  }
+
+.text-home-header2 {
+color: #ffffff !important; // Cor personalizada para textos secundários
+font-weight: bold !important;
+font-family:'Courier New', Courier, monospace !important;
+font-size:larger !important;
+}
+
+.text-home-content {
+color: #ffffff !important; // Cor personalizada para textos secundários
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-align:start !important;
+font-size:large;
+}
+
+.text-home-link {
+    color: #ffffff !important; // Cor personalizada para textos secundários
+    font-weight: bold !important;
+  }
+
+.img-home{
+    width: 100%;
+}
